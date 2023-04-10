@@ -6,6 +6,11 @@ module.exports = {
       colors: {
         'regal-white': '#f1f1f1',
         'midnight':'#003543'
+      },
+      screens: {
+        'firstMax': { 'raw': '(max-width: 970px)' },
+        'secondMax': { 'raw': '(max-width: 750px)' },
+        // => @media (min-height: 800px) { ... }
       }
     },
   },

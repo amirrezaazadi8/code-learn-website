@@ -11,7 +11,8 @@
 
 <body class="bg-slate-500">
     <!-- -------------------header ---------------------------- -->
-    <header class="bg-regal-white items-center flex justify-between mt-10 mx-auto w-3/4 rounded-t-sm py-1">
+    <header
+        class="bg-regal-white items-center flex firstMax:flex-col justify-between mt-10 mx-auto w-3/4 rounded-t-sm py-1">
         <!-- ------------------------- first section---------------------- -->
         <section class="px-3">
             <img class="w-5 h-5" alt="icon" src="./access/img/Annotation 2023-04-10 060333.jpg">
@@ -19,13 +20,14 @@
         <!-- ------------------------- second section---------------------- -->
         <section class="pr-2">
             <nav>
-                <ul class="text-gray-600 flex gap-x-6 text-sm font-medium">
-                    <li class="hover:underline hover:text-gray-800"><a href="#">صفحه اصلی</a></li>
-                    <li class="hover:underline hover:text-gray-800"><a href="#">دوره ها</a></li>
-                    <li class="hover:underline hover:text-gray-800"><a href="#">قوانین</a></li>
-                    <li class="hover:underline hover:text-gray-800"><a href="#">پرسش و پاسخ</a></li>
-                    <li class="hover:underline hover:text-gray-800"><a href="#">تماس با ما</a></li>
-                    <li class="hover:underline hover:text-gray-900 text-gray-800"><a href="#">درباره ما</a></li>
+                <ul class="text-gray-600 flex firstMax:flex-col firstMax:pb-3 gap-x-6 text-sm font-medium">
+                    <li class="hover:underline hover:text-gray-800 firstMax:pb-3"><a href="#">صفحه اصلی</a></li>
+                    <li class="hover:underline hover:text-gray-800 firstMax:pb-3"><a href="#">دوره ها</a></li>
+                    <li class="hover:underline hover:text-gray-800 firstMax:pb-3"><a href="#">قوانین</a></li>
+                    <li class="hover:underline hover:text-gray-800 firstMax:pb-3"><a href="#">پرسش و پاسخ</a></li>
+                    <li class="hover:underline hover:text-gray-800 firstMax:pb-3"><a href="#">تماس با ما</a></li>
+                    <li class="hover:underline hover:text-gray-900 firstMax:pb-3 text-gray-800"><a href="#">درباره
+                            ما</a></li>
                 </ul>
             </nav>
         </section>
@@ -59,9 +61,9 @@
             </p>
         </section>
         <!-- --------------------------- our story  -------- -->
-        <section class="flex mt-28 items-center">
+        <section class="flex secondMax:flex-col mt-28">
             <div class="w-3/4 ml-24">
-                <h3 class="text-lg text-gray-500 font-medium mb-3">کدلرن</h3>
+                <h3 class="text-lg text-gray-500 font-medium mb-3">داستان ما</h3>
                 <p class="text-sm text-gray-400 font-sm">
                     لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها
                     و
@@ -77,11 +79,11 @@
             </div>
         </section>
         <!-- --------------------------- our values -------------- -->
-        <section class="flex mt-28 items-center">
+        <section class="flex secondMax:flex-col-reverse mt-28">
             <div class="w-1/4 h-40">
                 <img class="w-full h-full" alt="image of story" src="./access/img/Annotation 2023-04-10 075832.jpg">
             </div>
-            <div class="w-3/4 mr-24">
+            <div class="w-3/4 mr-24 secondMax:mr-0">
                 <h3 class="text-lg text-gray-500 font-medium mb-3">ارزش های ما</h3>
                 <p class="text-sm text-gray-400 font-sm">
                     لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها
@@ -101,7 +103,7 @@
                     ماموریت ما
                 </h3>
             </div>
-            <div class="flex justify-evenly mt-10">
+            <div class="flex secondMax:flex-col secondMax:gap-4 justify-evenly mt-10">
                 <div class="border-2 rounded-lg shadow-lg">
                     <img class="w-full h-full" src="./access/img/Annotation 2023-04-10 075832.jpg"
                         alt="mission image"></img>
@@ -115,14 +117,14 @@
                         alt="mission image"></img>
                 </div>
             </div>
-            </secton>
+        </section>
     </main>
     <!-- ------------------- footer ------------------------------ -->
     <footer class="bg-midnight  mx-auto w-3/4 py-10 px-10 rounded-b-sm">
         <!-- ---------------------------- first footer section ---------- -->
-        <section class="flex">
+        <section class="flex secondMax:flex-col">
             <!-- ------------------------ first footer section Right -->
-            <div class="ml-10">
+            <div class="ml-10 flex-1">
                 <!-- --------------------- A -->
                 <div class="mb-3">
                     <h4 class="text-white text-lg font-bold mb-5">
@@ -160,7 +162,7 @@
                 </div>
             </div>
             <!-- ------------------------ first footer section Left -->
-            <div class="mr-10">
+            <div class="mr-10 flex-1 secondMax:mr-0 secondMax:mt-5">
                 <form class="">
                     <!-- --------- ----------------- name --------------- -->
                     <div class="mb-4 flex w-full tall:flex-col">
