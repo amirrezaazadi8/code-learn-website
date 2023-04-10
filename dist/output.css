@@ -558,6 +558,10 @@ video {
   margin-left: 6rem;
 }
 
+.mr-24 {
+  margin-right: 6rem;
+}
+
 .flex {
   display: flex;
 }
